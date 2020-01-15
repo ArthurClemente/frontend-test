@@ -1,3 +1,262 @@
-body, html {
+@charset "UTF-8";
+
+body {
     font-family: 'Montserrat' !important;
+}
+
+/* Formatação do menu inicial */
+
+nav#menu-superior {
+    background-color: #3573ba;
+    height: 55px;
+    display: block;
+    box-shadow: 0px 0px 10px black;
+}
+nav#menu-superior ul {
+    list-style: none;
+    height: 55px;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+nav#menu-superior li {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    top: -10px;
+    left: 220px;
+}
+
+nav#menu-superior a {
+    color: #ffffff;
+}
+
+/* Formatação da area de pesquisa */
+
+div#pesquisa {
+    height: 315px;
+    background-color: grey;
+    
+}
+
+
+figure.logo img {
+    display: block;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#pesquisa h1 {
+    font-size: 48px;
+    margin: 20px 0px 30px 220px;
+    color: #ffffff;
+
+}
+
+div#pesquisa input {
+    size: 75%;
+    width: 1050px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+div#botao img {
+    position: absolute;
+    top: 225px;
+    right: 120px;
+    width: 14px;
+}
+
+/* Formatação da area de consulta */
+div#consulta {
+    display: block;
+}
+div#consulta img {
+    height: 52px;
+    width: 60px;
+    position: relative;
+    top: 30px;
+    left: 52px;
+}
+
+div#consulta ul {
+    list-style: none;
+    margin-left: 50px;
+}
+
+div#consulta li{
+    display: inline-block;
+    height: 140px;
+    width: 165px;
+    position: relative;
+    border-radius: 6px;
+    top: 0px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0,.3);
+}
+
+div#consulta p{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: #3573ba;
+}
+
+/* Formatação da area de links de acesso */
+
+div#acesso {
+    display: block;
+}
+
+div#acesso h3 {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+div#acesso ul {
+    list-style: none;
+    padding: 0px;
+}
+
+div#acesso li {
+    display: inline-block;
+    height: 135px;
+    width: 230px;
+    position: relative;
+    border-radius: 6px;
+    top: 80px;
+    left: 80px;
+    margin: 20px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0,.5);
+}
+
+div#acesso img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+div#acesso p {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    border-top: 3px solid #3573ba;
+}
+
+/* Formatação da area de contatos */
+
+div#contato {
+    display: block;
+}
+
+div#contato h3 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+div#contato h4 {
+    font-size: 20px;
+    position: relative;
+    top: 245px;
+    left: 60px;
+    width: 60%;
+
+}
+
+div#contato ul {
+    list-style: none;
+    position: relative;
+    top: 240px;
+    left: 40px;
+    width: 60%;
+}
+
+div#contato li {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+}
+
+div#contato img {
+    width: 100%;
+}
+
+/* Formatação do endereço */
+
+div#endereco {
+    display: block;
+}
+
+div.mapa iframe {
+    height: 150px;
+    width: 40%;
+    position: relative;
+    left: 29%;
+    top: 50px;
+}
+
+div#endereco h4 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+div#endereco p {
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+/* Formatação da avaliação */
+
+div#avaliacao {
+    display: block;
+}
+
+div#avaliacao h4 {
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    bottom: 185px;
+    right: 70px;
+}
+
+div#stars.starrr {
+    text-align: right;
+    position: relative;
+    bottom: 185px;
+    right: 120px;
+}
+
+div#avaliacao p {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    width: 20%;
+    left: 950px;
+    bottom: 180px;
+}
+
+/* Formatacao do rodapé */
+
+footer#footer {
+    background-color: #3573ba;
+    height: 55px;
+    display: block;
+    box-shadow: 0px 0px 10px black;
+}
+
+footer#footer {
+    display: block;
+}
+
+footer#footer p {
+    color: #ffffff;
+    text-align: right;
 }
